@@ -6,3 +6,5 @@ try:
 except ImportError:
     __version__ = "unknown (no version information available)"
     version_tuple = (0, 0, "unknown", "noinfo")
+
+from .watermark import WatermarkEncoder
